@@ -83,11 +83,24 @@ equipmentShow.addEventListener('click', function () {
 
 // модалка обратная связь
 
-let modalFeedbackOpen = document.querySelector('.my-button__burger-footer-chat')
+let modalFeedbackOpenOne = document.querySelector(
+  '.my-button__burger-footer-chat'
+)
 let feedbackOpen = document.querySelector('.feedback')
 let modalFeedbackClose = document.querySelector('.my-button__feedback-close')
+let modalFeedbackOpenTwo = document.querySelector('.my-button__chat')
 
-modalFeedbackOpen.addEventListener('click', function () {
+modalFeedbackOpenOne.addEventListener('click', function () {
+  feedbackOpen.classList.add('feedback-active')
+  body.style.overflow = 'hidden'
+  body.style.height = '100vh'
+})
+modalFeedbackClose.addEventListener('click', function () {
+  feedbackOpen.classList.remove('feedback-active')
+  body.style.overflow = ''
+  body.style.height = ''
+})
+modalFeedbackOpenTwo.addEventListener('click', function () {
   feedbackOpen.classList.add('feedback-active')
   body.style.overflow = 'hidden'
   body.style.height = '100vh'
@@ -100,11 +113,22 @@ modalFeedbackClose.addEventListener('click', function () {
 
 // модалка заказать звонок
 
-let modalCallkOpen = document.querySelector('.my-button__burger-footer-call')
+let modalCallkOpenOne = document.querySelector('.my-button__burger-footer-call')
 let callkOpen = document.querySelector('.back-call')
 let modalCallClose = document.querySelector('.my-button__back-call-close')
+let modalCallkOpenTwo = document.querySelector('.my-button__call')
 
-modalCallkOpen.addEventListener('click', function () {
+modalCallkOpenOne.addEventListener('click', function () {
+  callkOpen.classList.add('back-call-active')
+  body.style.overflow = 'hidden'
+  body.style.height = '100vh'
+})
+modalCallClose.addEventListener('click', function () {
+  callkOpen.classList.remove('back-call-active')
+  body.style.overflow = ''
+  body.style.height = ''
+})
+modalCallkOpenTwo.addEventListener('click', function () {
   callkOpen.classList.add('back-call-active')
   body.style.overflow = 'hidden'
   body.style.height = '100vh'

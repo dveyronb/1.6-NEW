@@ -3246,7 +3246,7 @@ button,
     height: 940px;
     position: absolute;
     top: 0;
-    right: 3050px;
+    left: 3050px;
     z-index: 15;
     background: none;
     transition: 2s;
