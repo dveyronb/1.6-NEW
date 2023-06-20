@@ -17,6 +17,17 @@ button,
 .button {
   cursor: pointer;
 }
+
+.my-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff3e79;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 // .swiper-slide {
 //   cursor: pointer;
 // }

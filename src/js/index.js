@@ -116,7 +116,7 @@ modalCallClose.addEventListener('click', function () {
 
 // раскрытие блока burger
 
-let buttonBurgerOpen = document.querySelector('.menu__burger')
+let buttonBurgerOpen = document.querySelector('.my-button__burger')
 let burgerMenuOpen = document.querySelector('.burger')
 let burgerMenuClose = document.querySelector('.burger__header-burger-x')
 
@@ -126,3 +126,16 @@ buttonBurgerOpen.addEventListener('click', function () {
 burgerMenuClose.addEventListener('click', function () {
   burgerMenuOpen.classList.remove('burger-active')
 })
+
+// Блокировка прокрутки при определенном media-запросе
+const mediaQuery = window.matchMedia('(min-width: 1440px)')
+function handleMediaQuery() {
+  const body = document.querySelector('body')
+  if (mediaQuery.matches) {
+    body.style.overflow = 'hidden'
+  } else {
+    body.style.overflow = ''
+  }
+}
+handleMediaQuery()
+mediaQuery.addListener(handleMediaQuery)
