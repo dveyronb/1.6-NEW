@@ -83,42 +83,37 @@ equipmentShow.addEventListener('click', function () {
 
 // модалка обратная связь
 
-let modalFeedbackOpen = document.querySelector(
-  '.burger-menu__footer-button-chat'
-)
+let modalFeedbackOpen = document.querySelector('.my-button__burger-footer-chat')
 let feedbackOpen = document.querySelector('.feedback')
 let modalFeedbackClose = document.querySelector('.feedback__close')
-// let body = document.querySelector('body')
 
 modalFeedbackOpen.addEventListener('click', function () {
   feedbackOpen.classList.add('feedback-active')
-  // body.style.overflow = 'hidden'
 })
 modalFeedbackClose.addEventListener('click', function () {
   feedbackOpen.classList.remove('feedback-active')
-  // body.style.overflow = ''
 })
 
 // модалка заказать звонок
 
-let modalCallkOpen = document.querySelector('.burger-menu__footer-button-call')
+let modalCallkOpen = document.querySelector('.my-button__burger-footer-call')
 let callkOpen = document.querySelector('.back-call')
 let modalCallClose = document.querySelector('.back-call__close')
 
 modalCallkOpen.addEventListener('click', function () {
   callkOpen.classList.add('back-call-active')
-  // body.style.overflow = 'hidden'
 })
 modalCallClose.addEventListener('click', function () {
   callkOpen.classList.remove('back-call-active')
-  // body.style.overflow = ''
 })
 
 // раскрытие блока burger
 
 let buttonBurgerOpen = document.querySelector('.my-button__burger')
 let burgerMenuOpen = document.querySelector('.burger')
-let burgerMenuClose = document.querySelector('.burger__header-burger-x')
+let burgerMenuClose = document.querySelector(
+  '.my-button__burger-header-burger-x'
+)
 
 buttonBurgerOpen.addEventListener('click', function () {
   burgerMenuOpen.classList.add('burger-active')
