@@ -88,15 +88,15 @@ let modalFeedbackOpen = document.querySelector(
 )
 let feedbackOpen = document.querySelector('.feedback')
 let modalFeedbackClose = document.querySelector('.feedback__close')
-let body = document.querySelector('body')
+// let body = document.querySelector('body')
 
 modalFeedbackOpen.addEventListener('click', function () {
   feedbackOpen.classList.add('feedback-active')
-  body.style.overflow = 'hidden'
+  // body.style.overflow = 'hidden'
 })
 modalFeedbackClose.addEventListener('click', function () {
   feedbackOpen.classList.remove('feedback-active')
-  body.style.overflow = ''
+  // body.style.overflow = ''
 })
 
 // модалка заказать звонок
@@ -107,11 +107,11 @@ let modalCallClose = document.querySelector('.back-call__close')
 
 modalCallkOpen.addEventListener('click', function () {
   callkOpen.classList.add('back-call-active')
-  body.style.overflow = 'hidden'
+  // body.style.overflow = 'hidden'
 })
 modalCallClose.addEventListener('click', function () {
   callkOpen.classList.remove('back-call-active')
-  body.style.overflow = ''
+  // body.style.overflow = ''
 })
 
 // раскрытие блока burger

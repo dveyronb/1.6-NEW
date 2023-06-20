@@ -467,18 +467,18 @@
     transition: 1s;
     right: 0;
   }
-  .back-call-active::after {
-    content: '';
-    display: block;
-    position: absolute;
-    background: #ffffff;
-    width: 448px;
-    height: 676px;
-    z-index: 3;
-    right: 320px;
-    top: 0;
-    opacity: 0.5;
-  }
+  // .back-call-active::after {
+  //   content: '';
+  //   display: block;
+  //   position: absolute;
+  //   background: #ffffff;
+  //   width: 448px;
+  //   height: 676px;
+  //   z-index: 3;
+  //   right: 320px;
+  //   top: 0;
+  //   opacity: 0.5;
+  // }
 
   form {
     width: 288px;
