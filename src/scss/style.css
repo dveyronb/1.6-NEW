@@ -184,7 +184,7 @@
     width: 125px;
     align-self: flex-end;
     margin-bottom: 16px;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -206,7 +206,7 @@
     margin-bottom: 16px;
     height: 24px;
     width: 119px;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -243,7 +243,7 @@
     background: #f8f8f8;
   }
   .main__title-text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 40px;
@@ -264,7 +264,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .main__title-text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 40px;
@@ -291,7 +291,7 @@
     top: 18px;
   }
   .main__title-text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 40px;
@@ -313,7 +313,7 @@
   .article__stori {
     display: flex;
     flex-direction: column;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -332,7 +332,7 @@
     height: 254px;
   }
   .article__stori-text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -341,7 +341,7 @@
     margin: 16px 0 14px 16px;
   }
   .article__stori-text-hidden {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -355,7 +355,7 @@
     margin: 0 0 15px 34px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -378,7 +378,7 @@
     margin: 0 0 15px 34px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -405,7 +405,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -426,7 +426,7 @@
     height: 270px;
   }
   .article__stori-text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -435,7 +435,7 @@
     margin: 16px 0 14px 23px;
   }
   .article__stori-text-hidden {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -495,7 +495,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -521,7 +521,7 @@
     height: 238px;
   }
   .article__stori-text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -530,7 +530,7 @@
     margin: 16px 0 14px 16px;
   }
   .article__stori-text-hidden {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -602,7 +602,7 @@
   }
   .slider__link-brands, .slider__link-devices, .slider__link-services, .slider__link-prices, .slider__link-addresses, .slider__link-special, .slider__link-reviews {
     text-decoration: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -977,7 +977,7 @@
     margin: 8px 0 17px 41px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1000,7 +1000,7 @@
     margin: 0 0 17px 50px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1103,7 +1103,7 @@
     margin: 0 0 17px 50px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1126,7 +1126,7 @@
     margin: 0 0 17px 50px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1333,7 +1333,7 @@
     margin: 17px 0 17px 42px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1356,7 +1356,7 @@
     margin: 0 0 17px 50px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1471,7 +1471,7 @@
     margin: 0 0 17px 50px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1494,7 +1494,7 @@
     margin: 0 0 17px 50px;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1579,7 +1579,7 @@
     display: none;
   }
   .swiper-slide__prais-var-description, .swiper-slide__prais-var-prise, .swiper-slide__prais-var-term {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -1589,7 +1589,7 @@
     margin: 20px 0 2px 15px;
   }
   .swiper-slide__prais-name, .swiper-slide__prais-price, .swiper-slide__prais-term {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -1609,7 +1609,7 @@
     background: #ff3e79;
   }
   .button-order__text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24px;
@@ -1700,7 +1700,7 @@
     display: initial;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -1745,7 +1745,7 @@
     margin: 16px 16px 16px 20px;
   }
   .button-order__text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24px;
@@ -1825,7 +1825,7 @@
     display: initial;
     border: none;
     background: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -1873,7 +1873,7 @@
     margin: 16px 24px 16px 20px;
   }
   .button-order__text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24px;
@@ -1907,7 +1907,7 @@
     flex-wrap: nowrap;
   }
   .container-nds__text {
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -1917,7 +1917,7 @@
   }
   .button__nds {
     border: none;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -2017,7 +2017,7 @@
   .footer__block {
     display: flex;
     flex-direction: row;
-    font-family: "TT Lakes";
+    font-family: "TT Lakes", Arial, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
