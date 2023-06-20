@@ -89,9 +89,13 @@ let modalFeedbackClose = document.querySelector('.my-button__feedback-close')
 
 modalFeedbackOpen.addEventListener('click', function () {
   feedbackOpen.classList.add('feedback-active')
+  body.style.overflow = 'hidden'
+  body.style.height = '100vh'
 })
 modalFeedbackClose.addEventListener('click', function () {
   feedbackOpen.classList.remove('feedback-active')
+  body.style.overflow = ''
+  body.style.height = ''
 })
 
 // модалка заказать звонок
@@ -102,9 +106,13 @@ let modalCallClose = document.querySelector('.my-button__back-call-close')
 
 modalCallkOpen.addEventListener('click', function () {
   callkOpen.classList.add('back-call-active')
+  body.style.overflow = 'hidden'
+  body.style.height = '100vh'
 })
 modalCallClose.addEventListener('click', function () {
   callkOpen.classList.remove('back-call-active')
+  body.style.overflow = ''
+  body.style.height = ''
 })
 
 // раскрытие блока burger
@@ -114,23 +122,15 @@ let burgerMenuOpen = document.querySelector('.burger')
 let burgerMenuClose = document.querySelector(
   '.my-button__burger-header-burger-x'
 )
+let body = document.querySelector('body')
 
 buttonBurgerOpen.addEventListener('click', function () {
   burgerMenuOpen.classList.add('burger-active')
+  body.style.overflow = 'hidden'
+  body.style.height = '100vh'
 })
 burgerMenuClose.addEventListener('click', function () {
   burgerMenuOpen.classList.remove('burger-active')
+  body.style.overflow = ''
+  body.style.height = ''
 })
-
-// Блокировка прокрутки при определенном media-запросе
-const mediaQuery = window.matchMedia('(min-width: 1440px)')
-function handleMediaQuery() {
-  const body = document.querySelector('body')
-  if (mediaQuery.matches) {
-    body.style.overflow = 'hidden'
-  } else {
-    body.style.overflow = ''
-  }
-}
-handleMediaQuery()
-mediaQuery.addListener(handleMediaQuery)
