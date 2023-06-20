@@ -4,7 +4,7 @@
     height: 676px;
     position: absolute;
     top: 0;
-    right: 767px;
+    left: 767px;
     z-index: 15;
     background: #ffffff;
     transition: 2s;
@@ -111,7 +111,7 @@
   }
   .feedback-active {
     transition: 1s;
-    right: 0;
+    left: 0;
   }
   form {
     width: 288px;
@@ -364,7 +364,7 @@
     height: 676px;
     position: absolute;
     top: 0;
-    right: 1439px;
+    left: 1439px;
     z-index: 15;
     background: #ffffff;
     transition: 2s;
@@ -471,7 +471,7 @@
   }
   .feedback-active {
     transition: 1s;
-    right: 0;
+    left: 448px;
   }
   .feedback-active::after {
     content: '';
@@ -556,7 +556,7 @@
     height: 940px;
     position: absolute;
     top: 0;
-    right: 2050px;
+    right: 3050px;
     z-index: 15;
     background: none;
     transition: 2s;
@@ -677,7 +677,7 @@
   }
   .feedback-active {
     transition: 1s;
-    right: 0;
+    left: 1000px;
   }
   form {
     max-width: 500px;

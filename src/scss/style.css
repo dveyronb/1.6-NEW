@@ -2753,7 +2753,7 @@ button,
     height: 676px;
     position: absolute;
     top: 0;
-    right: 767px;
+    left: 767px;
     z-index: 15;
     background: #ffffff;
     transition: 2s;
@@ -2843,7 +2843,7 @@ button,
   }
   .feedback-active {
     transition: 1s;
-    right: 0;
+    left: 0;
   }
   form {
     width: 288px;
@@ -3074,7 +3074,7 @@ button,
     height: 676px;
     position: absolute;
     top: 0;
-    right: 1439px;
+    left: 1439px;
     z-index: 15;
     background: #ffffff;
     transition: 2s;
@@ -3163,7 +3163,7 @@ button,
   }
   .feedback-active {
     transition: 1s;
-    right: 0;
+    left: 448px;
   }
   .feedback-active::after {
     content: "";
@@ -3246,7 +3246,7 @@ button,
     height: 940px;
     position: absolute;
     top: 0;
-    right: 2050px;
+    right: 3050px;
     z-index: 15;
     background: none;
     transition: 2s;
@@ -3347,7 +3347,7 @@ button,
   }
   .feedback-active {
     transition: 1s;
-    right: 0;
+    left: 1000px;
   }
   form {
     max-width: 500px;
@@ -3796,6 +3796,18 @@ button,
   .back-call-active {
     transition: 1s;
     right: 0;
+  }
+  .back-call-active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    width: 448px;
+    height: 676px;
+    z-index: 3;
+    right: 320px;
+    top: 0;
+    opacity: 0.5;
   }
   form {
     width: 288px;
