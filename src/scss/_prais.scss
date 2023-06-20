@@ -1,0 +1,515 @@
+@media screen and (min-width: 320px) {
+  .prais {
+    min-width: 320px;
+    height: 306px;
+    margin-top: 18px;
+
+    // .prais__title
+
+    &__title {
+      height: 56px;
+      min-width: 320px;
+      border-top: 1px solid #d9fff5;
+      background: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+    }
+
+    // .prais__title-text
+
+    &__title-text {
+      font-family: 'TT Lakes', 'Arial', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      text-align: left;
+      text-transform: uppercase;
+      color: #7e7e82;
+      margin-left: 16px;
+    }
+  }
+  .swiper-container {
+    // .swiper-container__prais
+
+    &__prais {
+      display: flex;
+      min-width: 320px;
+      height: 252px;
+      overflow: hidden;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+  }
+  .swiper-wrapper {
+    // .swiper-wrapper__prais
+
+    &__prais {
+      top: 0;
+      display: flex;
+      align-content: center;
+      margin-left: 16px;
+      gap: 16px;
+    }
+  }
+  .swiper-slide {
+    // .swiper-slide__prais
+
+    &__prais {
+      max-height: 200px;
+      max-width: 260px;
+      margin-top: 16px;
+      display: flex;
+      border-radius: 6px;
+      background: #ffffff;
+      border: 1px solid #eaeaea;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    // .swiper-slide__prais-mobile-none
+
+    &__prais-mobile-none {
+      display: none;
+    }
+
+    // .swiper-slide__prais-var-description
+
+    &__prais-var-description,
+    &__prais-var-prise,
+    &__prais-var-term {
+      font-family: 'TT Lakes';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #7e7e82;
+      margin: 20px 0 2px 15px;
+    }
+
+    // .swiper-slide__prais-name
+
+    &__prais-name,
+    &__prais-price,
+    &__prais-term {
+      font-family: 'TT Lakes';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #1b1c21;
+      margin: 0 0 0 16px;
+    }
+  }
+  .button-order {
+    height: 32px;
+    width: 119px;
+    position: absolute;
+    left: 124px;
+    top: 152px;
+    border-radius: 16px;
+    border: none;
+    background: #ff3e79;
+
+    // .button-order__text
+
+    &__text {
+      font-family: 'TT Lakes';
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.15px;
+      text-align: left;
+      color: #ffffff;
+      margin: 0 0 0 6px;
+    }
+    &__text::after {
+      content: url("data:image/svg+xml,%3Csvg width='7' height='10' viewBox='0 0 7 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.8 4.99994L0.791554 2.229C0.3641 1.83529 0.361125 1.16138 0.785088 0.763917L0.920293 0.637162C1.30321 0.278177 1.89851 0.276333 2.28364 0.632939L6.93812 4.94264C6.9715 4.97355 6.9715 5.02633 6.93812 5.05723L2.34674 9.30851C1.92606 9.69803 1.27582 9.69601 0.857554 9.30389C0.394457 8.86974 0.397706 8.13363 0.864616 7.70358L3.8 4.99994Z' fill='white'/%3E%3C/svg%3E%0A");
+      display: inline-block;
+      width: 7px;
+      height: 9.63px;
+      position: relative;
+      top: 2px;
+      left: 17px;
+    }
+  }
+  .swiper-pagination {
+    // .swiper-pagination__prais
+
+    &__prais {
+      position: relative;
+    }
+  }
+  .swiper-container__prais .swiper-pagination {
+    bottom: 0;
+  }
+  .swiper-container__prais .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #b5b6bc;
+  }
+  .swiper-pagination .swiper-pagination-bullet:nth-child(11),
+  .swiper-pagination .swiper-pagination-bullet:nth-child(10) {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .prais {
+    min-width: 768px;
+    height: 456px;
+    margin-top: 32px;
+    // .prais__title
+
+    &__title {
+      height: 56px;
+      min-width: 768px;
+      border-top: 1px solid #d9fff5;
+      background: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+    }
+
+    // .prais__title-text
+
+    &__title-text {
+      font-family: 'TT Lakes', 'Arial', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      text-align: left;
+      text-transform: uppercase;
+      color: #7e7e82;
+      margin-left: 24px;
+    }
+  }
+  .swiper-container {
+    // .swiper-container__prais
+
+    &__prais {
+      display: flex;
+      height: 402px;
+      overflow: hidden;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      max-width: 740px;
+      margin: 0 auto 0px auto;
+    }
+  }
+  .swiper-wrapper {
+    // .swiper-wrapper__prais
+
+    &__prais {
+      top: 0;
+      left: 12px;
+      display: flex;
+      margin: 0;
+      gap: 0;
+      flex-direction: column;
+    }
+  }
+  .swiper-slide {
+    // .swiper-slide__prais
+
+    &__prais {
+      max-height: 63px;
+      max-width: 720px;
+      display: flex;
+      background: #ffffff;
+      border: 1px solid #eaeaea;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin: 0;
+      align-items: center;
+    }
+
+    // .swiper-slide__prais-mobile-none
+
+    &__prais-mobile-none {
+      display: initial;
+      border: none;
+      background: none;
+      font-family: 'TT Lakes';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #7e7e82;
+      opacity: 0.72;
+      display: flex;
+      margin: 0;
+    }
+
+    // .swiper-slide__prais-mobile-none-description
+
+    &__prais-mobile-none-description {
+      margin: 17px 123px 0 14px;
+    }
+
+    // .swiper-slide__prais-mobile-none-price
+
+    &__prais-mobile-none-price {
+      margin: 18px 30.5px 0 120px;
+    }
+
+    // .swiper-slide__prais-mobile-none-term
+
+    &__prais-mobile-none-term {
+      margin: 18px 203px 0 30.5px;
+    }
+
+    // .swiper-slide__prais-price
+
+    &__prais-price {
+      margin: 0 22px 0 auto;
+    }
+    // .swiper-slide__prais-price-free
+
+    &__prais-price-free {
+      margin: 0 12px 0 auto;
+    }
+
+    // .swiper-slide__prais-term
+
+    &__prais-term {
+      margin: 0 3px 0 22px;
+    }
+
+    // .swiper-slide__prais-term-small
+
+    &__prais-term-small {
+      margin: 0 34px 0 11px;
+    }
+
+    // .swiper-slide__prais-var
+    &__prais-var-description,
+    &__prais-var-prise,
+    &__prais-var-term {
+      display: none;
+    }
+  }
+  .button-order {
+    height: 32px;
+    width: 119px;
+    position: initial;
+    border-radius: 16px;
+    border: none;
+    background: #ff3e79;
+    margin: 16px 16px 16px 20px;
+
+    // .button-order__text
+
+    &__text {
+      font-family: 'TT Lakes';
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.15px;
+      text-align: left;
+      color: #ffffff;
+      margin: 0 0 0 4px;
+    }
+    &__text::after {
+      content: url("data:image/svg+xml,%3Csvg width='7' height='10' viewBox='0 0 7 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.8 4.99994L0.791554 2.229C0.3641 1.83529 0.361125 1.16138 0.785088 0.763917L0.920293 0.637162C1.30321 0.278177 1.89851 0.276333 2.28364 0.632939L6.93812 4.94264C6.9715 4.97355 6.9715 5.02633 6.93812 5.05723L2.34674 9.30851C1.92606 9.69803 1.27582 9.69601 0.857554 9.30389C0.394457 8.86974 0.397706 8.13363 0.864616 7.70358L3.8 4.99994Z' fill='white'/%3E%3C/svg%3E%0A");
+      display: inline-block;
+      width: 7px;
+      height: 9.63px;
+      position: relative;
+      top: 2px;
+      left: 17px;
+    }
+  }
+  .swiper-pagination {
+    // .swiper-pagination__prais
+
+    &__prais {
+      display: none;
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .prais {
+    position: relative;
+    left: 306px;
+    min-width: 768px;
+    height: 472px;
+    max-width: 1130px;
+    // .prais__title
+
+    &__title {
+      height: 56px;
+      min-width: 768px;
+      border-top: 1px solid #d9fff5;
+      background: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+    }
+
+    // .prais__title-text
+
+    &__title-text {
+      font-family: 'TT Lakes', 'Arial', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      text-align: left;
+      text-transform: uppercase;
+      color: #7e7e82;
+      margin-left: 32px;
+    }
+  }
+  .swiper-container {
+    // .swiper-container__prais
+
+    &__prais {
+      display: flex;
+      height: 402px;
+      overflow: hidden;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      max-width: 1092px;
+    }
+  }
+  .swiper-wrapper {
+    // .swiper-wrapper__prais
+
+    &__prais {
+      top: 0;
+      left: 12px;
+      display: flex;
+      margin: 0 0 0 42px;
+      gap: 0;
+      flex-direction: column;
+    }
+  }
+  .swiper-slide {
+    // .swiper-slide__prais
+
+    &__prais {
+      max-height: 63px;
+      max-width: 1054px;
+      display: flex;
+      background: #ffffff;
+      border: 1px solid #eaeaea;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin: 0;
+      align-items: center;
+    }
+
+    // .swiper-slide__prais-mobile-none
+
+    &__prais-mobile-none {
+      display: initial;
+      border: none;
+      background: none;
+      font-family: 'TT Lakes';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #7e7e82;
+      opacity: 0.72;
+      display: flex;
+      margin: 0;
+    }
+    // .swiper-slide__prais-name
+
+    &__prais-name {
+      margin: 0 0 0 22px;
+    }
+
+    // .swiper-slide__prais-mobile-none-description
+
+    &__prais-mobile-none-description {
+      margin: 16px 123px 0 22px;
+    }
+
+    // .swiper-slide__prais-mobile-none-price
+
+    &__prais-mobile-none-price {
+      margin: 16px 62.5px 0 92px;
+    }
+
+    // .swiper-slide__prais-mobile-none-term
+
+    &__prais-mobile-none-term {
+      margin: 16px 299px 0 0;
+    }
+    // .swiper-slide__prais-price
+
+    &__prais-price {
+      margin: 0 153px 0 auto;
+    }
+    // .swiper-slide__prais-price-free
+
+    &__prais-price-free {
+      margin: 0 142px 0 auto;
+    }
+
+    // .swiper-slide__prais-term
+
+    &__prais-term {
+      margin: 0 92px 0 22px;
+    }
+
+    // .swiper-slide__prais-term-small
+
+    &__prais-term-small {
+      margin: 0 122px 0 11px;
+    }
+
+    // .swiper-slide__prais-var
+    &__prais-var-description,
+    &__prais-var-prise,
+    &__prais-var-term {
+      display: none;
+    }
+  }
+  .button-order {
+    height: 32px;
+    width: 119px;
+    position: initial;
+    border-radius: 16px;
+    border: none;
+    background: #ff3e79;
+    margin: 16px 24px 16px 20px;
+
+    // .button-order__text
+
+    &__text {
+      font-family: 'TT Lakes';
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.15px;
+      text-align: left;
+      color: #ffffff;
+      margin: -2px 0 0 6px;
+    }
+    &__text::after {
+      content: url("data:image/svg+xml,%3Csvg width='7' height='10' viewBox='0 0 7 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.8 4.99994L0.791554 2.229C0.3641 1.83529 0.361125 1.16138 0.785088 0.763917L0.920293 0.637162C1.30321 0.278177 1.89851 0.276333 2.28364 0.632939L6.93812 4.94264C6.9715 4.97355 6.9715 5.02633 6.93812 5.05723L2.34674 9.30851C1.92606 9.69803 1.27582 9.69601 0.857554 9.30389C0.394457 8.86974 0.397706 8.13363 0.864616 7.70358L3.8 4.99994Z' fill='white'/%3E%3C/svg%3E%0A");
+      display: inline-block;
+      width: 7px;
+      height: 9.63px;
+      position: relative;
+      top: 2px;
+      left: 17px;
+    }
+  }
+  .swiper-pagination {
+    // .swiper-pagination__prais
+
+    &__prais {
+      display: none;
+    }
+  }
+}
+
+.button-order:hover {
+  filter: invert(75%);
+}

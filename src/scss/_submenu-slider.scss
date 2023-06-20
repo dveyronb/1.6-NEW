@@ -1,0 +1,262 @@
+@media screen and (min-width: 320px) {
+  .submenu {
+    // .submenu__slider
+
+    &__slider {
+      margin: 0;
+      overflow: hidden;
+      min-width: 320px;
+    }
+  }
+  .slider {
+    display: flex;
+    overflow: auto;
+    padding: 5px;
+    align-items: center;
+    height: 40px;
+    margin: 3px 5px 3px 8px;
+
+    // .slider__link
+
+    &__link-brands,
+    &__link-devices,
+    &__link-services,
+    &__link-prices,
+    &__link-addresses,
+    &__link-special,
+    &__link-reviews {
+      text-decoration: none;
+      font-family: 'TT Lakes';
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      text-align: left;
+      color: #7e7e82;
+    }
+
+    // .slider__text-brands
+
+    &__text-brands {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 246px;
+      padding-right: 15px;
+    }
+
+    // .slider__text-devices
+
+    &__text-devices {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 246px;
+      padding-right: 15px;
+    }
+
+    // .slider__text-services
+
+    &__text-services {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 193px;
+      padding-right: 15px;
+    }
+
+    // .slider__text-prices
+
+    &__text-prices {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 138px;
+      padding-right: 15px;
+    }
+
+    // .slider__text-addresses
+
+    &__text-addresses {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 208px;
+      padding-right: 15px;
+    }
+
+    // .slider__text-special
+
+    &__text-special {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 152px;
+      padding-right: 15px;
+    }
+
+    // .slider__text-reviews
+
+    &__text-reviews {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 67px;
+      padding-right: 15px;
+    }
+  }
+  .sliderr::after {
+    content: '';
+    display: block;
+    flex-shrink: 0;
+    width: 15px;
+  }
+  .slider li {
+    list-style-type: none;
+    margin-right: 15px;
+    white-space: nowrap;
+    padding-left: 19px;
+    margin-right: -9px;
+    height: 38px;
+    padding-top: 10px;
+  }
+  .slider li:hover {
+    height: 33px;
+    border-radius: 6px;
+    background: #ffffff;
+    border: 2px solid #b8ffec;
+    padding-top: 5px;
+  }
+  .slider li:last-child {
+    margin-right: 0;
+  }
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .submenu {
+    // .submenu__slider
+
+    &__slider {
+      margin: 0;
+      overflow: hidden;
+      min-width: 768px;
+    }
+  }
+  .slider {
+    display: flex;
+    margin: 0;
+    overflow: auto;
+    padding: 15px;
+  }
+  .slider li {
+    list-style-type: none;
+    margin-right: 15px;
+    white-space: nowrap;
+    padding-left: 24px;
+    margin-right: -9px;
+    height: 38px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .submenu {
+    // .submenu__slider
+
+    &__slider {
+      width: 1110px;
+      height: 106px;
+      position: relative;
+      flex-wrap: wrap;
+      left: 330px;
+      top: -10px;
+    }
+  }
+  .slider {
+    display: flex;
+    overflow: visible;
+    padding: 5px;
+    align-items: center;
+    height: 100px;
+    margin: 3px 5px 3px 8px;
+    flex-wrap: wrap;
+    width: 1092px;
+
+    // .slider__text-brands
+
+    &__text-brands {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 191px;
+      padding-right: 15px;
+      padding-left: 18px;
+    }
+
+    // .slider__text-devices
+
+    &__text-devices {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 212px;
+      padding-right: 15px;
+      padding-left: 18px;
+    }
+
+    // .slider__text-services
+
+    &__text-services {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 182px;
+      padding-right: 15px;
+      padding-left: 18px;
+    }
+
+    // .slider__text-prices
+
+    &__text-prices {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 114px;
+      padding-right: 15px;
+      padding-left: 18px;
+    }
+
+    // .slider__text-addresses
+
+    &__text-addresses {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 208px;
+      padding-right: 15px;
+      padding-left: 18px;
+    }
+
+    // .slider__text-special
+
+    &__text-special {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 147px;
+      padding-right: 15px;
+      padding-left: 18px;
+    }
+
+    // .slider__text-reviews
+
+    &__text-reviews {
+      list-style-type: none;
+      margin-right: 0px;
+      white-space: nowrap;
+      width: 60px;
+      padding-right: 15px;
+      padding-left: 18px;
+    }
+  }
+}

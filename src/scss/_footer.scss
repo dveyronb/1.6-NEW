@@ -1,0 +1,176 @@
+@media screen and (min-width: 320px) {
+  .footer {
+    min-width: 320px;
+    height: 128px;
+    margin-top: 51px;
+    // .footer__block
+
+    &__block {
+      display: flex;
+      flex-direction: column;
+
+      font-family: 'TT Lakes';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #7e7e82;
+      opacity: 0.72;
+
+      border-top: 1px solid #d9fff5;
+      background: #f8f8f8;
+    }
+
+    // .footer__block-text-team
+
+    &__block-text-team {
+      display: flex;
+      flex-direction: column;
+    }
+
+    // .footer__block-text-team-ear
+
+    &__block-text-team-ear {
+      margin-bottom: 0;
+    }
+
+    // .footer__block-text-team-comand
+
+    &__block-text-team-comand {
+      margin: 0;
+    }
+
+    // .footer__block-text-politics
+
+    &__block-text-politics {
+      margin: 16px 53px 8px 53px;
+    }
+
+    // .footer__block-text-offer
+
+    &__block-text-offer {
+      margin: 8px 4px 19px 4px;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .footer {
+    min-width: 768px;
+    height: 105px;
+    margin-top: 68px;
+    // .footer__block
+
+    &__block {
+      display: flex;
+      flex-direction: row;
+      font-family: 'TT Lakes';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #7e7e82;
+      opacity: 0.72;
+      border-top: 1px solid #d9fff5;
+      background: #f8f8f8;
+      align-items: baseline;
+
+      height: 104px;
+    }
+
+    // .footer__block-text-team
+
+    &__block-text-team {
+      display: flex;
+      flex-direction: column;
+      width: 573px;
+      align-items: flex-start;
+      margin-left: 24px;
+      margin-right: 3px;
+    }
+
+    // .footer__block-text-team-ear
+
+    &__block-text-team-ear {
+      margin-bottom: 0;
+    }
+
+    // .footer__block-text-team-comand
+
+    &__block-text-team-comand {
+      margin: 0;
+    }
+
+    // .footer__block-text-politics
+
+    &__block-text-politics {
+      width: 483px;
+      margin: 0;
+    }
+
+    // .footer__block-text-offer
+
+    &__block-text-offer {
+      margin-left: 11px;
+      text-align: right;
+      margin-right: 24px;
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    width: 1120px;
+    height: 86px;
+    margin-top: 73px;
+    margin-left: 306px;
+    // .footer__block
+
+    &__block {
+      width: 1116px;
+      height: 48px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    // .footer__block-text-team
+
+    &__block-text-team {
+      width: 438px;
+      margin-right: 22px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      margin-left: 24px;
+    }
+
+    // .footer__block-text-team-ear
+
+    &__block-text-team-ear {
+      margin: 10px 0 0 5px;
+    }
+
+    // .footer__block-text-team-comand
+
+    &__block-text-team-comand {
+      margin: 0 0 0 6px;
+    }
+
+    // .footer__block-text-politics
+
+    &__block-text-politics {
+      width: 563px;
+      margin: 10px 0 0 -4px;
+    }
+
+    // .footer__block-text-offer
+
+    &__block-text-offer {
+      width: 536px;
+      margin: 11px 31px 0 -1px;
+      padding-left: 66px;
+      text-align: right;
+    }
+  }
+}

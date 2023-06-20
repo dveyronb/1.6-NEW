@@ -1,0 +1,91 @@
+@media screen and (min-width: 320px) {
+  .container-nds {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    // .container-nds__text
+
+    &__text {
+      font-family: 'TT Lakes';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      margin-left: 16px;
+    }
+  }
+  .button {
+    // .button__nds
+
+    &__nds {
+      border: none;
+      font-family: 'TT Lakes';
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      text-align: left;
+      margin-left: 16px;
+      background: none;
+      padding: 0;
+    }
+    &__nds::after {
+      content: url("data:image/svg+xml,%3Csvg width='8' height='12' viewBox='0 0 8 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.1625 9.60411C0.838186 9.97957 0.838186 10.536 1.1625 10.9115L1.29432 11.0641C1.69317 11.5258 2.40899 11.5258 2.80785 11.0641L6.8372 6.39937C7.16152 6.02392 7.16152 5.46745 6.8372 5.092L2.80785 0.427277C2.40899 -0.0344715 1.69317 -0.0344715 1.29432 0.427278L1.1625 0.57988C0.838185 0.955333 0.838186 1.5118 1.1625 1.88726L4.49539 5.74569L1.1625 9.60411Z' fill='%23FF3E79'/%3E%3C/svg%3E");
+      display: inline-block;
+      height: 6px;
+      width: 11.45px;
+      position: relative;
+      top: 2px;
+      left: 10px;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .container-nds {
+    margin-left: 12px;
+    // .container-nds__text
+
+    &__text {
+      width: 421px;
+      height: 60px;
+    }
+  }
+  .button {
+    // .button__nds
+
+    &__nds {
+      width: 303px;
+      height: 24px;
+      margin-left: 12px;
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-nds {
+    position: relative;
+    left: 306px;
+    width: 454px;
+    // .container-nds__text
+
+    &__text {
+      width: 421px;
+      height: 60px;
+      position: relative;
+      top: 5px;
+      left: 32px;
+      margin: 0 0 20px 0;
+    }
+  }
+  .button {
+    // .button__nds
+
+    &__nds {
+      width: 303px;
+      height: 24px;
+      margin-left: 32px;
+    }
+  }
+}
