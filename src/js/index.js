@@ -85,7 +85,7 @@ equipmentShow.addEventListener('click', function () {
 
 let modalFeedbackOpen = document.querySelector('.my-button__burger-footer-chat')
 let feedbackOpen = document.querySelector('.feedback')
-let modalFeedbackClose = document.querySelector('.feedback__close')
+let modalFeedbackClose = document.querySelector('.my-button__feedback-close')
 
 modalFeedbackOpen.addEventListener('click', function () {
   feedbackOpen.classList.add('feedback-active')
@@ -98,7 +98,7 @@ modalFeedbackClose.addEventListener('click', function () {
 
 let modalCallkOpen = document.querySelector('.my-button__burger-footer-call')
 let callkOpen = document.querySelector('.back-call')
-let modalCallClose = document.querySelector('.back-call__close')
+let modalCallClose = document.querySelector('.my-button__back-call-close')
 
 modalCallkOpen.addEventListener('click', function () {
   callkOpen.classList.add('back-call-active')
