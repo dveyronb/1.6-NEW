@@ -89,24 +89,29 @@ let modalFeedbackOpenOne = document.querySelector(
 let feedbackOpen = document.querySelector('.feedback')
 let modalFeedbackClose = document.querySelector('.my-button__feedback-close')
 let modalFeedbackOpenTwo = document.querySelector('.my-button__chat')
+let appearanceFeedback = document.querySelector('.substrate-feedback')
 
 modalFeedbackOpenOne.addEventListener('click', function () {
   feedbackOpen.classList.add('feedback-active')
+  appearanceFeedback.classList.toggle('substrate-feedback-active')
   body.style.overflow = 'hidden'
   body.style.height = '100vh'
 })
 modalFeedbackClose.addEventListener('click', function () {
   feedbackOpen.classList.remove('feedback-active')
+  appearanceFeedback.classList.toggle('substrate-feedback-active')
   body.style.overflow = ''
   body.style.height = ''
 })
 modalFeedbackOpenTwo.addEventListener('click', function () {
   feedbackOpen.classList.add('feedback-active')
+  appearanceFeedback.classList.toggle('substrate-feedback-active')
   body.style.overflow = 'hidden'
   body.style.height = '100vh'
 })
 modalFeedbackClose.addEventListener('click', function () {
   feedbackOpen.classList.remove('feedback-active')
+  appearanceFeedback.classList.remove('substrate-feedback-active')
   body.style.overflow = ''
   body.style.height = ''
 })
@@ -117,24 +122,29 @@ let modalCallkOpenOne = document.querySelector('.my-button__burger-footer-call')
 let callkOpen = document.querySelector('.back-call')
 let modalCallClose = document.querySelector('.my-button__back-call-close')
 let modalCallkOpenTwo = document.querySelector('.my-button__call')
+let appearanceCall = document.querySelector('.substrate-back-call')
 
 modalCallkOpenOne.addEventListener('click', function () {
   callkOpen.classList.add('back-call-active')
+  appearanceCall.classList.toggle('substrate-back-call-active')
   body.style.overflow = 'hidden'
   body.style.height = '100vh'
 })
 modalCallClose.addEventListener('click', function () {
   callkOpen.classList.remove('back-call-active')
+  appearanceCall.classList.toggle('substrate-back-call-active')
   body.style.overflow = ''
   body.style.height = ''
 })
 modalCallkOpenTwo.addEventListener('click', function () {
   callkOpen.classList.add('back-call-active')
+  appearanceCall.classList.toggle('substrate-back-call-active')
   body.style.overflow = 'hidden'
   body.style.height = '100vh'
 })
 modalCallClose.addEventListener('click', function () {
   callkOpen.classList.remove('back-call-active')
+  appearanceCall.classList.remove('substrate-back-call-active')
   body.style.overflow = ''
   body.style.height = ''
 })
@@ -147,14 +157,17 @@ let burgerMenuClose = document.querySelector(
   '.my-button__burger-header-burger-x'
 )
 let body = document.querySelector('body')
+let appearanceBurger = document.querySelector('.substrate-burger')
 
 buttonBurgerOpen.addEventListener('click', function () {
   burgerMenuOpen.classList.add('burger-active')
+  appearanceBurger.classList.toggle('substrate-burger-active')
   body.style.overflow = 'hidden'
   body.style.height = '100vh'
 })
 burgerMenuClose.addEventListener('click', function () {
   burgerMenuOpen.classList.remove('burger-active')
+  appearanceBurger.classList.toggle('substrate-burger-active')
   body.style.overflow = ''
   body.style.height = ''
 })

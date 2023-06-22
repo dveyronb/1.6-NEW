@@ -28,6 +28,9 @@ button,
   background-position: center;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 // .swiper-slide {
 //   cursor: pointer;
 // }

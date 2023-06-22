@@ -177,6 +177,10 @@
   textarea:focus {
     outline: none;
   }
+
+  .substrate-feedback {
+    display: none;
+  }
 }
 @media screen and (min-width: 360px) {
   .feedback {
@@ -357,6 +361,10 @@
   textarea:focus {
     outline: none;
   }
+
+  .substrate-feedback {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .feedback {
@@ -473,18 +481,18 @@
     transition: 1s;
     left: 448px;
   }
-  .feedback-active::after {
-    content: '';
-    display: block;
-    position: absolute;
-    background: #ffffff;
-    width: 448px;
-    height: 676px;
-    z-index: 3;
-    right: 320px;
-    top: 0;
-    opacity: 0.5;
-  }
+  // .feedback-active::after {
+  //   content: '';
+  //   display: block;
+  //   position: absolute;
+  //   background: #ffffff;
+  //   width: 448px;
+  //   height: 676px;
+  //   z-index: 3;
+  //   right: 320px;
+  //   top: 0;
+  //   opacity: 0.5;
+  // }
   form {
     width: 288px;
     height: 48px;
@@ -549,6 +557,33 @@
   textarea:focus {
     outline: none;
   }
+
+  .substrate-feedback {
+    display: none;
+  }
+  .substrate-feedback-active {
+    display: initial;
+    width: 448px;
+    height: 1024px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    // opacity: 0.6;
+    background-color: #ffffff;
+    z-index: 3;
+
+    opacity: 0;
+    animation: mani 2.3s forwards;
+
+    @keyframes mani {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0.8;
+      }
+    }
+  }
 }
 @media screen and (min-width: 1440px) {
   .feedback {
@@ -576,16 +611,16 @@
       box-shadow: -43px 0px 52px rgba(69, 79, 126, 0.02),
         16px 0px 52px rgba(14, 24, 80, 0.2);
     }
-    &__form::before {
-      content: '';
-      display: block;
-      width: 1000px;
-      height: 940px;
-      position: absolute;
-      background: #ffffff;
-      right: 440px;
-      opacity: 0.7;
-    }
+    // &__form::before {
+    //   content: '';
+    //   display: block;
+    //   width: 1000px;
+    //   height: 940px;
+    //   position: absolute;
+    //   background: #ffffff;
+    //   right: 440px;
+    //   opacity: 0.7;
+    // }
 
     // .feedback__form-title
 
@@ -742,6 +777,33 @@
   input[type='email']:focus,
   textarea:focus {
     outline: none;
+  }
+
+  .substrate-feedback {
+    display: none;
+  }
+  .substrate-feedback-active {
+    display: initial;
+    width: 1000px;
+    height: 940px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    // opacity: 0.6;
+    background-color: #ffffff;
+    z-index: 3;
+
+    opacity: 0;
+    animation: mani 2.3s forwards;
+
+    @keyframes mani {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0.8;
+      }
+    }
   }
 }
 .my-button {

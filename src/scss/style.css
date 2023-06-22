@@ -2071,6 +2071,10 @@ button,
   background-position: center;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 @media screen and (min-width: 1440px) {
   body {
     width: 1440px;
@@ -2253,6 +2257,9 @@ button,
     color: #7e7e82;
     text-decoration: none;
   }
+  .substrate {
+    display: none;
+  }
 }
 @media screen and (min-width: 360px) {
   .burger {
@@ -2404,6 +2411,9 @@ button,
     text-align: left;
     color: #7e7e82;
     text-decoration: none;
+  }
+  .substrate {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -2584,6 +2594,29 @@ button,
     color: #7e7e82;
     text-decoration: none;
   }
+  .substrate-burger {
+    display: none;
+  }
+  .substrate-burger-active {
+    display: initial;
+    width: 448px;
+    height: 1024px;
+    position: absolute;
+    top: 0;
+    left: 320px;
+    background-color: #ffffff;
+    z-index: 3;
+    opacity: 0;
+    animation: ani 2.3s forwards;
+  }
+  @keyframes ani {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
 }
 @media screen and (min-width: 1440px) {
   .burger {
@@ -2732,6 +2765,9 @@ button,
     text-align: left;
     color: #7e7e82;
     text-decoration: none;
+  }
+  .substrate {
+    display: none;
   }
 }
 .my-button__burger-header-burger-x:hover, .my-button__burger-header-search:hover, .my-button__burger-footer-call:hover, .my-button__burger-footer-chat:hover, .my-button__burger-footer-profile:hover {
@@ -2907,6 +2943,9 @@ button,
   textarea:focus {
     outline: none;
   }
+  .substrate-feedback {
+    display: none;
+  }
 }
 @media screen and (min-width: 360px) {
   .feedback {
@@ -3067,6 +3106,9 @@ button,
   textarea:focus {
     outline: none;
   }
+  .substrate-feedback {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .feedback {
@@ -3165,18 +3207,6 @@ button,
     transition: 1s;
     left: 448px;
   }
-  .feedback-active::after {
-    content: "";
-    display: block;
-    position: absolute;
-    background: #ffffff;
-    width: 448px;
-    height: 676px;
-    z-index: 3;
-    right: 320px;
-    top: 0;
-    opacity: 0.5;
-  }
   form {
     width: 288px;
     height: 48px;
@@ -3239,6 +3269,29 @@ button,
   textarea:focus {
     outline: none;
   }
+  .substrate-feedback {
+    display: none;
+  }
+  .substrate-feedback-active {
+    display: initial;
+    width: 448px;
+    height: 1024px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 3;
+    opacity: 0;
+    animation: mani 2.3s forwards;
+  }
+  @keyframes mani {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
 }
 @media screen and (min-width: 1440px) {
   .feedback {
@@ -3262,16 +3315,6 @@ button,
     flex-wrap: nowrap;
     background: #ffffff;
     box-shadow: -43px 0px 52px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
-  }
-  .feedback__form::before {
-    content: "";
-    display: block;
-    width: 1000px;
-    height: 940px;
-    position: absolute;
-    background: #ffffff;
-    right: 440px;
-    opacity: 0.7;
   }
   .feedback__form-title {
     width: 200px;
@@ -3409,6 +3452,29 @@ button,
   input[type=email]:focus,
   textarea:focus {
     outline: none;
+  }
+  .substrate-feedback {
+    display: none;
+  }
+  .substrate-feedback-active {
+    display: initial;
+    width: 1000px;
+    height: 940px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 3;
+    opacity: 0;
+    animation: mani 2.3s forwards;
+  }
+  @keyframes mani {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.8;
+    }
   }
 }
 .my-button__feedback-close:hover {
@@ -3564,6 +3630,9 @@ button,
   input[type=tel]:focus {
     outline: none;
   }
+  .substrate-back-call {
+    display: none;
+  }
 }
 @media screen and (min-width: 360px) {
   .back-call {
@@ -3700,6 +3769,9 @@ button,
   input[type=tel]:focus {
     outline: none;
   }
+  .substrate-back-call {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .back-call {
@@ -3797,18 +3869,6 @@ button,
     transition: 1s;
     right: 0;
   }
-  .back-call-active::after {
-    content: "";
-    display: block;
-    position: absolute;
-    background: #ffffff;
-    width: 448px;
-    height: 676px;
-    z-index: 3;
-    right: 320px;
-    top: 0;
-    opacity: 0.5;
-  }
   form {
     width: 288px;
     height: 48px;
@@ -3847,6 +3907,29 @@ button,
   input[type=tel]:focus {
     outline: none;
   }
+  .substrate-back-call {
+    display: none;
+  }
+  .substrate-back-call-active {
+    display: initial;
+    width: 448px;
+    height: 1024px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 3;
+    opacity: 0;
+    animation: vani 2.3s forwards;
+  }
+  @keyframes vani {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
 }
 @media screen and (min-width: 1440px) {
   .back-call {
@@ -3870,16 +3953,6 @@ button,
     flex-wrap: nowrap;
     background: #ffffff;
     box-shadow: -43px 0px 52px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
-  }
-  .back-call__form::before {
-    content: "";
-    display: block;
-    width: 1000px;
-    height: 940px;
-    position: absolute;
-    background: #ffffff;
-    right: 440px;
-    opacity: 0.7;
   }
   .back-call__form-title {
     width: 200px;
@@ -3996,6 +4069,29 @@ button,
   }
   input[type=tel]:focus {
     outline: none;
+  }
+  .substrate-back-call {
+    display: none;
+  }
+  .substrate-back-call-active {
+    display: initial;
+    width: 1000px;
+    height: 940px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 3;
+    opacity: 0;
+    animation: vani 2.3s forwards;
+  }
+  @keyframes vani {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.8;
+    }
   }
 }
 .my-button__back-call-close:hover {
